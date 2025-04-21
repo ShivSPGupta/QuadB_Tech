@@ -1,3 +1,35 @@
+# 🚀 My Portfolio
+
+Welcome to my personal portfolio website! Built with **React** and powered by **Vite** for fast development and optimized performance. This portfolio showcases my skills, projects, and experience in web development.
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – Frontend library
+- ⚡ **Vite** – Fast and modern frontend build tool
+- 🎨 **CSS** (adjust based on what you used)
+- 📦 **npm** – Dependency management
+
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/ShivSPGupta/QuadB_Tech.git
+
+# Navigate to the project folder
+cd W1/D1/portfolio
+
+# Install dependencies
+npm install
+
+
+# Start the development server
+npm run dev
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
