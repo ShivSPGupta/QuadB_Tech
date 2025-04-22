@@ -1,3 +1,45 @@
+# 📝 Simple React To-Do App
+
+This is a beginner-friendly **To-Do List App** built with **React**, using only:
+
+- `useState` for state management
+- Controlled components (input)
+- Basic event handling (like `onChange`, `onClick`)
+
+---
+
+## 🚀 Features
+
+- Add tasks to a list
+- Delete tasks from the list
+- Real-time input control
+- Clean and simple UI with CSS
+
+---
+
+
+
+---
+
+## 🛠️ How to Run It
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/ShivSPGupta/QuadB_Tech.git
+
+# Navigate to the project folder
+cd W1/D2/todo-app
+
+# Install dependencies
+npm install
+
+
+# Start the development server
+npm run dev
+
+```
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
