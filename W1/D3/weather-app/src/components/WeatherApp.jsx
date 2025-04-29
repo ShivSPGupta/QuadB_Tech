@@ -38,7 +38,7 @@ function WeatherApp() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-blue-100 px-4 py-10">
-      <h1 className="text-3xl font-bold mb-6">🌤 Advanced Weather App</h1>
+      <h1 className="text-3xl font-bold mb-6">🌤 Weather App</h1>
 
       <form onSubmit={handleSearch} className="flex gap-4 mb-6">
         <input
