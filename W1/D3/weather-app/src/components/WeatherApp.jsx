@@ -29,7 +29,7 @@ function WeatherApp() {
     fetchWeather();
     const intervalId = setInterval(fetchWeather, 10 * 60 * 1000);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [city]);
 
   const handleSearch = (e) => {
     e.preventDefault();
