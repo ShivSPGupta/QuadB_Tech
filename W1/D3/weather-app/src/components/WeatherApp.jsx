@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_KEY = '701219e8713d24254ef1271c2c1e0fc5';
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
 function WeatherApp() {
   const [city, setCity] = useState('Delhi');
