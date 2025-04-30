@@ -5,22 +5,24 @@ function Navbar() {
   const { currentUser, logout } = useAuth();
 
   return (
-    <nav className="bg-blue-700 text-white px-6 py-4 flex justify-between items-center">
-      <Link to="/" className="text-2xl font-bold">MyBlog</Link>
+    <nav className="bg-white shadow p-4 flex justify-between">
       <div className="space-x-4">
-        <Link to="/" className="hover:underline">Home</Link>
-        <Link to="/about" className="hover:underline">About</Link>
-        <Link to="/contact" className="hover:underline">Contact</Link>
-        <Link to="/blogs" className="hover:underline">Blogs</Link>
+        <Link to="/" className="font-bold">MyBlog</Link>
+        <Link to="/blogs">Blogs</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        {currentUser && <Link to="/new-post">New Post</Link>}
+      </div>
+      <div className="space-x-4">
         {currentUser ? (
           <>
-            <Link to="/new-post" className="hover:underline">New Post</Link>
-            <button onClick={logout} className="hover:underline">Logout</button>
+            <span>{currentUser.email}</span>
+            <button onClick={logout} className="text-red-600">Logout</button>
           </>
         ) : (
           <>
-            <Link to="/login" className="hover:underline">Login</Link>
-            <Link to="/register" className="hover:underline">Register</Link>
+            <Link to="/login">Login</Link>
+            <Link to="/register">Register</Link>
           </>
         )}
       </div>
