@@ -10,7 +10,7 @@ function BlogDetails() {
   useEffect(() => {
     const fetchPost = async () => {
         console.log("Blog ID:", id); // Add this for debugging
-      const docRef = doc(db, "posts", id);
+      const docRef = doc(db, "blogs", id);
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
         setPost(docSnap.data());
