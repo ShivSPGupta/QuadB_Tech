@@ -13,7 +13,6 @@ A modern, responsive e-commerce website built with **React + Vite**, styled usin
 - 🛒 Add to Cart with quantity management (using Redux)
 - ❤️ Wishlist toggle (via Prop Drilling)
 - 🌙 Dark/Light theme switcher (using Context API)
-- 🧭 Navbar with cart and wishlist icons
 - 🔄 Routing for Home, Cart, and Wishlist pages
 
 ---
@@ -32,23 +31,6 @@ A modern, responsive e-commerce website built with **React + Vite**, styled usin
 ---
 
 
-## 📁 Project Structure
-src/
-│ ├── components/
-│   └── Navbar.jsx 
-│ ├── context/ 
-│   └── ThemeContext.jsx # Context API for dark mode 
-│ ├── pages/ 
-│   ├── Home.jsx # Product listing 
-│   ├── Cart.jsx # Cart page (Redux) 
-│   └── Wishlist.jsx # Wishlist (Prop Drilling) 
-│ ├── redux/ 
-│   └── cartSlice.js # Redux slice for cart 
-│ ├── App.jsx 
-  └── main.jsx
-
----
-
 ## 🔧 Setup Instructions
 
 ### 1. Clone the repository
@@ -64,6 +46,8 @@ npm install
 npm run dev
 
 ```
+
+---
 
 # React + Vite
 
