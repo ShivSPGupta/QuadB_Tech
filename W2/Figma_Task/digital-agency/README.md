@@ -1,3 +1,55 @@
+# 🎨 Figma to React - Responsive UI with Tailwind CSS
+
+This project is a **responsive React application** based on a [Figma design](#) and built using **Tailwind CSS** and **React Router DOM** for seamless page navigation.
+
+---
+
+## 🚀 Tech Stack
+
+- ⚛️ [React]
+- 🌬️ [Tailwind CSS]
+- 🧭 [React Router DOM]
+- 📐 [Figma] (design source)
+- 🌐 Responsive design with mobile-first approach
+
+---
+
+✨ Features
+🧱 Component-based architecture
+
+📱 Fully responsive across devices
+
+⚡ Fast, utility-first styling with Tailwind CSS
+
+🔀 Multi-page navigation using React Router
+
+🖼️ Clean UI inspired by the original Figma design
+
+
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShivSPGupta/QuadB_Tech.git
+cd W2/Figma_Task/digital-agency
+```
+
+### 2.Install Dependencies
+```bash
+npm install
+```
+### 3.Start Development Server
+```bash
+npm run dev
+```
+# Deployed Link
+https://figmatask-digital-agency.vercel.app/
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
