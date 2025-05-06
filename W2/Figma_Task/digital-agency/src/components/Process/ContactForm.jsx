@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import CheckboxInput from "./CheckboxInput";
 import RangeSlider from "./RangeSlider";

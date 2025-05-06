@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 
 const FAQItem = ({ number, question, answer, isOpen = false }) => {

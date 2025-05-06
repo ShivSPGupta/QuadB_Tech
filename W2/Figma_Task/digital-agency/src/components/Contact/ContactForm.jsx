@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import InputField from "./InputField";
 import RangeSlider from "./RangeSlider";
