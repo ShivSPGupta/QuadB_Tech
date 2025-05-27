@@ -1,0 +1,13 @@
+.scroll-path-section {
+  background: #111;
+  padding: 100px 0;
+  min-height: 200vh;
+  position: relative;
+}
+
+.scroll-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
