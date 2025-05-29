@@ -1,4 +1,3 @@
-// Full React Hero Section Clone Based on Shared Image
 import React from "react";
 import "./HeroSection.css";
 
@@ -6,14 +5,14 @@ export default function HeroSection() {
   return (
     <section className="hero-section relative h-screen w-full text-white flex flex-col items-center justify-center overflow-hidden bg-black">
       {/* Gradient Blur Background */}
-      <div className="absolute top-0 left-0 w-full h-full z-0">
+      <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden">
         <div className="blur-circle top-1/4 left-1/3" />
-        <div className="blur-circle top-2/3 right-1/4" />
+        <div className="blur-circle alt top-2/3 right-1/4" />
       </div>
 
       {/* Hero Content */}
       <div className="z-10 text-center px-4">
-        <h2 className=" text-3xl italic text-gray-300 heading-underline">
+        <h2 className="text-3xl italic text-gray-300 heading-underline">
           Come to us with a {" "}
           <span className="gradient-text font-semibold">vision</span>
         </h2>

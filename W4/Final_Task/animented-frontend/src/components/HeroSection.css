@@ -1,17 +1,43 @@
-/* HeroSection.css */
-
 .hero-section {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  position: relative;      /* for absolute children */
+  height: 100vh;           /* full viewport height */
   background-color: #000;
   font-family: 'Segoe UI', sans-serif;
 }
 
 .blur-circle {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(255,255,255,0.05), transparent 70%);
-  filter: blur(80px);
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.25), transparent 70%);
+  filter: blur(55px);
   z-index: 1;
+  animation: moveBlur 5s ease-in-out infinite alternate;
+  border-radius: 50%;
+  opacity: 0.8;
+  top: 10%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.blur-circle.alt {
+  background: radial-gradient(circle, rgba(163, 230, 53, 0.25), transparent 70%);
+  animation-delay: 3s;
+}
+
+@keyframes moveBlur {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(100px, -50px) scale(1.2);
+  }
+  100% {
+    transform: translate(-50px, 100px) scale(1);
+  }
 }
 
 .scroll-strip {
@@ -19,7 +45,7 @@
   bottom: 0;
   width: 100%;
   border-top: 2px solid #4B5563;
-  border-bottom: 2px solid #4B5563; /* Tailwind border-gray-600 */
+  border-bottom: 2px solid #4B5563;
   padding: 0.5rem 0;
   background-color: black;
   z-index: 20;
@@ -37,9 +63,9 @@
   display: inline-block;
   white-space: nowrap;
   animation: scrollLeft 40s linear infinite;
-  font-size: 1.25rem; /* lg text */
+  font-size: 1.25rem;
   font-style: italic;
-  color: #d1d5db; /* Tailwind's text-gray-400 */
+  color: #d1d5db;
 }
 
 @keyframes scrollLeft {
@@ -72,6 +98,7 @@
   color: white;
   font-size: 0.875rem;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .gradient-border .inner:hover {
