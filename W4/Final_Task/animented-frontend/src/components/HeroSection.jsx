@@ -7,7 +7,7 @@ export default function HeroSection() {
       {/* Gradient Blur Background */}
       <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden">
         <div className="blur-circle top-1/4 left-1/3" />
-        <div className="blur-circle alt top-2/3 right-1/4" />
+        <div className="blur-circle alt top-1/3 right-1/4" />
       </div>
 
       {/* Hero Content */}
