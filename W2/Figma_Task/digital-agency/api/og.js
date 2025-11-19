@@ -9,15 +9,15 @@ export default function handler() {
     (
       <div
         style={{
-          height: '100%',
-          width: '100%',
-          background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
+          width: '100%',
+          height: '100%',
+          background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
           color: 'white',
           fontSize: 64,
-          fontWeight: 700
+          fontWeight: 'bold'
         }}
       >
         My Vite App OG
