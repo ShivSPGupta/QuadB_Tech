@@ -1,8 +1,7 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/og.js": {
-      "runtime": "edge"
+      "runtime": "@vercel/edge@2.5.2"
     }
   }
 }
